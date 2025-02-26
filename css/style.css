@@ -1,7 +1,11 @@
+/* Reset */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+ul{
+    list-style: none;
 }
 
 /* Header */
@@ -33,7 +37,7 @@ padding: 10px 40px;
 .bnt{
     padding: 5px 10px;
     font-size: 16px;
-    border-radius: 16px;
+    border-radius: 8px;
 }
 
 .bnt-blu{
@@ -43,11 +47,41 @@ padding: 10px 40px;
 
 .bnt-bianco{
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid lightgray;
+}
+
+.bnt:hover{
+    background-color: red;
+    color: white;
+}
+
+.bnt:active{
+    background-color: lightcoral;
+    padding: 1px;
 }
 
 /* seconda sezione */
 .seconda{
-    padding: 40px;
+    padding: 30px 40px;
     background-color: white;
 }
+
+.elenco{
+    margin-bottom: 30px;
+}
+
+.btd{
+    margin-right: 10px;
+}
+
+.check{
+    margin-right: 12px;
+    color: green;
+}
+
+.cross{
+    margin-right: 12px;
+    color: red;
+    
+}
+
