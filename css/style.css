@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.header{
+    background-color: white;
+}
+
+/* Main */
+main{
+    background-color: lightgrey;
+    height: 600px;
+    padding: 50px;
+}
+/* Container del main */
+.container{
+    width: 60%;
+    margin: 0 auto;
+    height: 400px;
+}
+
+/* prima sezione */
+.prima{
+margin-bottom: 3px;
+background-color: white;
+padding: 10px 40px;
+}
+
+/* Bottoni */
+.bnt{
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 16px;
+}
+
+.bnt-blu{
+    background-color: lightblue;
+    border: solid transparent;
+}
+
+.bnt-bianco{
+    background-color: white;
+    border: 1px solid black;
+}
+
+/* seconda sezione */
+.seconda{
+    padding: 40px;
+    background-color: white;
+}
