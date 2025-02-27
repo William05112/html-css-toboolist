@@ -33,7 +33,7 @@ main{
 /* prima sezione */
 .prima{
 margin-bottom: 3px;
-background-color: white;
+background-color: lightgray;
 padding: 10px 40px;
 border-radius: 10px 10px 0px 0px;
 }
