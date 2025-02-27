@@ -19,14 +19,15 @@ body{
 /* Main */
 main{
     background-color: lightgrey;
-    height: 600px;
+    /* height: 600px; */
     padding: 50px;
+
 }
 /* Container del main */
 .container{
     width: 60%;
     margin: 0 auto;
-    height: 400px;
+    /* height: 400px; */
 }
 
 /* prima sezione */
@@ -205,8 +206,11 @@ display: inline-block;
     color: white;
 }
 
-
-
+/* Footer */
+/* footer{
+    background-color: red;
+    padding: 30px;
+} */
 
 
 
